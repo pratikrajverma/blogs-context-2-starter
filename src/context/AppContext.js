@@ -51,10 +51,10 @@ export default function AppContextProvider({ children }) {
 
   // Handle When Next and Previous button are clicked
   const handlePageChange = (page) => {
-    Navigate({search:`/page=${page}`})
+    // Navigate({search:`/page=${page}`})
     setPage(page);
     
-    // fetchBlogPosts(page);
+    fetchBlogPosts(page);
   };
 
  

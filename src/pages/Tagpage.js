@@ -11,9 +11,9 @@ const Tagpage = () => {
   const tag = location.pathname.split('/').at(-1);
 
   return (
-    <div>
+    <div className=''>
         <Header />
-        <div>
+        <div className='mt-20'>
           <button onClick={()=> navigation(-1)}>
             Back
           </button>

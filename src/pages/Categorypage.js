@@ -12,8 +12,8 @@ const Categoripage = () => {
 
   return (
     <div>
-      <Header/>
-      <div>
+      <Header ></Header>
+      <div className='mt-20'>
         <button onClick={()=>navigation(-1)}>
           Back
         </button>

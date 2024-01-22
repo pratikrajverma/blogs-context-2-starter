@@ -52,7 +52,7 @@ const Blogpage = () => {
     <div>
       <Header />
 
-      <div>
+      <div className='mt-20'>
         <button onClick={() => navigation(-1)}>
           Back
         </button>
